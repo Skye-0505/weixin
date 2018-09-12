@@ -6,7 +6,23 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "TODOLIST",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#999",
+    "backgroundColor":"#f8f9fb",
+    "selectedColor":"#333",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"todo"
+        
+      },{
+        "pagePath":"pages/logs/logs",
+        "text":"logs"
+      }
+    ]
   }
 }
